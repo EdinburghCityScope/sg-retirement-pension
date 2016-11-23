@@ -1,0 +1,35 @@
+{
+    "id": "https://github.com/EdinburghCityScope/sg-retirement-pension",
+    "title": "State Retirement Pension in Edinburgh",
+    "description": "Number of State Pension claimants in Edinburgh by age and gender.",
+    "landingPage": "https://github.com/EdinburghCityScope/sg-retirement-pension",
+    "issued": "2016-10-21",
+    "modified": "2016-11-23",
+    "language": [
+        "en"
+    ],
+    "publisher": {
+        "name": "Scottish Government",
+        "mbox": "statistics.enquiries@scotland.gsi.gov.uk"
+    },
+    "spatial": "http://www.geonames.org/maps/google_55.95_-3.193.html",
+    "keyword": [
+        "benefits", "community"
+    ],
+    "distribution": [
+        {
+            "title": "Edinburgh Data Zones 2001",
+            "description": "Data Zones 2001 boundaries in GeoJSON.",
+            "mediaType": "application/vnd.geo+json",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/sg-retirement-pension/master/data/data-zones-2001.json",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "State Retirement Pension data",
+            "description": "State Pension claimants in Edinburgh by Data Zones 2001 as published by Scottish Government. Data taken from http://statistics.gov.scot/data/retirement-pension",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/sg-retirement-pension/master/data/retirement-pension.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ]
+}
